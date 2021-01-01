@@ -1,0 +1,21 @@
+services:
+  bot:
+    build: ./
+    volumes:
+      - ./app/:/usr/src/app/
+    depends_on:
+      - redis
+    links:
+      - redis
+
+
+  redis:
+    container_name: redis
+    image: redis:latest
+    volumes:
+      - redis:/data
+    expose:
+      - "6379"
+
+volumes:
+  redis:
