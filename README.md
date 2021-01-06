@@ -2,7 +2,7 @@
 Game for training math skills based on Telegram Bot API.
 The bot asks you math tasks and you have to solve them.
 ## Bot link
-Math Tran Bot [@mathtrainbot](https://t.me/mathtrainbot)
+Math Train Bot [@mathtrainbot](https://t.me/mathtrainbot)
 ## Features
 - Using Aiogram Bot API
 - SQLAlchemy ORM + SQLite
