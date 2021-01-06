@@ -11,7 +11,6 @@ Math Tran Bot[@mathtrainbot](https://t.me/mathtrainbot)
 - Three difficulty levels to choose
 
 ## How to run locally
-```bash
 #download project
 $ git clone https://github.com/MagzKr/MathGameBot/
 
